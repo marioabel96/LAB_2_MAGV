@@ -9,3 +9,4 @@
 # -- repositorio: https://github.com/marioabel96/LAB_2_MAGV/
 
 # -- ------------------------------------------------------------------------------------ -- #
+import pandas as pd
