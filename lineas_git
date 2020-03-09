@@ -1,40 +1,14 @@
 [m@mm LAB_2_MAGV]$ git init
-Reinitialized existing Git repository in /home/m/Documents/ING fin/sistemas de trading/LAB_2_MAGV/.git/
+
 [m@mm LAB_2_MAGV]$ git status
-On branch master
-Your branch is up to date with 'origin/master'.
 
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   datos.py
-        modified:   funciones.py
-
-no changes added to commit (use "git add" and/or "git commit -a")
 [m@mm LAB_2_MAGV]$ git add --all
 [m@mm LAB_2_MAGV]$ git status
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        modified:   datos.py
-        modified:   funciones.py
 
 [m@mm LAB_2_MAGV]$ git commit -m"funcion de leer el archivo"
-[master a2ae193] funcion de leer el archivo
- 2 files changed, 4 insertions(+)
+
 [m@mm LAB_2_MAGV]$ git push origin master
 Username for 'https://github.com': marioabel96
 Password for 'https://marioabel96@github.com': 
-Enumerating objects: 7, done.
-Counting objects: 100% (6/6), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 368 bytes | 368.00 KiB/s, done.
-Total 4 (delta 3), reused 0 (delta 0)
-remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
-To https://github.com/marioabel96/LAB_2_MAGV.git
-   66c29c0..a2ae193  master -> master
-[m@mm LAB_2_MAGV]$ 
+[m@mm LAB_2_MAGV]$
 

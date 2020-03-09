@@ -29,7 +29,7 @@ def f_leer_archivo(param_archivo):
     """
 
     # Leer archivo de datos y guardarlo en un DataFrame
-    df_data = pd.read_excel('archivos/' + param_archivo, sheet_name='Hoja1')
+    df_data = pd.read_excel('Data/' + param_archivo, sheet_name='Hoja1')
 
     # convertir en minusculas el nombre de las columnas
     df_data.columns = [list(df_data.columns)[i].lower()
