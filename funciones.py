@@ -78,4 +78,18 @@ def f_pip_size(param_ins):
 
     return pips_inst[inst]
 
+# -- ------------------------------------------------------ FUNCION: Columnas tiempo -- #
+# -- ------------------------------------------------------------------------------------ -- #
+# -- calcular el tiempo que duraron abiertas las posiciones
 
+def f_columnas_tiempos(data)
+    # conversion a tiempo de columnas apertura y cierre en un datframe nuevo donde comezaremos a registrar los datos nuevos
+
+    data['open time'] = pd.to_datetime(data['open time'])
+    data['close time'] = pd.to_datetime(data['close time'])
+    # duracion de la operacion
+    data['dif_time'] = (data['close time'] - data['open time'])
+    # conversion a segundos
+    data['dif_seconds'] = data['dif_time'].dt.total_seconds()
+
+    return data['dif_seconds']

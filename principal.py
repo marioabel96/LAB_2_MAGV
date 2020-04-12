@@ -9,3 +9,6 @@
 # -- repositorio: https://github.com/marioabel96/LAB_2_MAGV/
 
 # -- ------------------------------------------------------------------------------------ -- #
+
+# importamos el archivo funciones
+import funciones as fn
