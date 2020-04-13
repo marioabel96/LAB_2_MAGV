@@ -11,4 +11,4 @@ para procesamiento de datos
 visualizaciones.py 
 para visualizacion de datos.
 
-Y un notebook de Jupyter para la presentación del laboratorio.
+Y un notebook de Jupyter para la presentación del laboratorio con explicaciones.
